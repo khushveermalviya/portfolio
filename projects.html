@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+       
+           
+                <a href="index.html" class="brand">portfolio</a>
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+               <div class="navigation">
+                <div class="navigation-items">
+                    <a href="#">My Projects</a>
+                    <a href="#">Contact</a>
+                    <a href="https://linktr.ee/khushveermalviya">Soical media</a>
+                    <a href="#">Main</a>
+                  
+                </div>
+               </div>
+            
+        
+    </header>
+    <section class="home">
+       <img  class="khush" src="images/wallpaperflare.com_wallpaper (2).jpg" alt="code">
+        <div class="content">
+            <h1>Wonderfun</h1>
+            <p>This is where position relative comes in. Move the green box relative to its current position to 20px from the left and top without changing the layout around it. Thus, leaving a gap for the green box where it would have been had it not been position</p>
+        </div>
+        <div class="media-icons">
+            <a href="#"> <i class="fab fa-linkedin"></i></a>
+            <a href="#"> <i class="fab fa-instagram"></i></a>
+            <a href="#"> <i class="fab fa-linkedin"></i></a>
+            <a href="#"> <i class="fab fa-git-square"></i></a>
+        </div>
+
+    </section>
+    <script  type="text/javascript">
+        // Toggle button functionality
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+        menuBtn.addEventListener("click", () => {
+            menuBtn.classList.toggle("active");
+            navigation.classList.toggle("active");
+        });
+        
+    </script>
+</body>
+</html>
